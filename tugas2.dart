@@ -16,7 +16,7 @@ void main(){
 
   // Input Kehadiran
   stdout.write("Masukkan kehadiran Anda:");
-  String? inputKehadiran = stdin.readLineSync();
+  String? inputKehadiran = stdin.readLineSync(); //Membaca input sebagai string
 
   // Mengubah string input menjadi double
   double kehadiran = double.parse(inputKehadiran ?? "0");
