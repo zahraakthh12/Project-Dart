@@ -40,3 +40,5 @@ void main(){
     print("Mohon maaf, Anda belum lulus.");
   }
 }
+
+// terminal: dart run tugas2.dart
