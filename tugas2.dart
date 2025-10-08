@@ -33,9 +33,9 @@ void main(){
   if (nilaiRata >= 70 && kehadiran >= 0.75 && nilaiUTS >= 60 && nilaiUAS >= 60){
     print("Selamat! Anda Lulus.");
   } else if (nilaiRata >= 70 && kehadiran >= 0.75 && nilaiUTS < 60 && nilaiUAS >= 60){
-    print("Selamat! Anda Lulus.");
+    print("Mohon maaf, Anda belum lulus.");
   } else if (nilaiRata >= 70 && kehadiran >= 0.75 && nilaiUTS >= 60 && nilaiUAS < 60){
-    print("Selamat! Anda Lulus.");
+    print("Mohon maaf, Anda belum lulus.");
   } else {
     print("Mohon maaf, Anda belum lulus.");
   }
